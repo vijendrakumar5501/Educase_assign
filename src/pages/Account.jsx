@@ -17,7 +17,7 @@ export default function Account() {
             />
 
             {/* Camera Icon */}
-            <div className="absolute bottom-0 right-0 bg-purple-600 p-1.5 rounded-full">
+            <div className="absolute bottom-0 right-0 bg-[#6C25FF] p-1.5 rounded-full">
               <Camera size={14} className="text-white" />
             </div>
           </div>

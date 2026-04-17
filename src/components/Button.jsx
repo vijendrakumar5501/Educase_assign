@@ -4,7 +4,7 @@ export default function Button({ text, onClick, disabled }) {
       onClick={onClick}
       disabled={disabled}
       className={`w-full py-3 rounded-lg font-semibold text-white transition 
-      ${disabled ? "bg-gray-300 cursor-not-allowed" : "bg-[#6C25FF]"}`}
+      ${disabled ? "bg-gray-300 cursor-not-allowed" : "bg-[#6C25FF] cursor-pointer " }`}
     >
       {text}
     </button>

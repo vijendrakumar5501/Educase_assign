@@ -9,7 +9,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
-        <div className="w-full max-w-md bg-white min-h-screen md:min-h-[700px] shadow">
+        <div className="w-full max-w-md bg-[#F7F8F9] min-h-screen md:min-h-[700px] shadow">
           <Routes>
             <Route path="/" element={<Welcome />} />
             <Route path="/login" element={<Login />} />
