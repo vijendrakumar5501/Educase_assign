@@ -1,4 +1,5 @@
 import { Camera } from "lucide-react";
+import Ellipse from "../assets/Ellipse.png"
 
 export default function Account() {
   return (
@@ -11,7 +12,7 @@ export default function Account() {
         <div className="flex items-center gap-4">
           <div className="relative">
             <img
-              src="https://i.pravatar.cc/100"
+              src={Ellipse}
               className="w-16 h-16 rounded-full object-cover"
             />
 

@@ -5,7 +5,7 @@ import Button from "../components/Button";
 
 export default function Signup() {
   const nav = useNavigate();
-  const [form, setForm] = useState({ name: "", phone: "", email: "", password: "" });
+  const [form, setForm] = useState({ name: "", phone: "", email: "", password: "",company:"" });
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
@@ -35,6 +35,7 @@ export default function Signup() {
         <Input label="Phone number*" name="phone" value={form.phone} onChange={handleChange} error={errors.phone} />
         <Input label="Email address*" name="email" value={form.email} onChange={handleChange} error={errors.email} />
         <Input label="Password*" type="password" name="password" value={form.password} onChange={handleChange} error={errors.password} />
+          <Input label="Company Name" name="company" value={form.company} onChange={handleChange} />
       </div>
 
       <Button text="Create Account" onClick={handleSignup} disabled={!form.name || !form.phone || !form.email || !form.password} />

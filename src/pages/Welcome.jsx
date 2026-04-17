@@ -10,10 +10,10 @@ export default function Welcome() {
       </div>
 
       <div className="mt-6 space-y-3">
-        <button onClick={() => nav("/signup")} className="w-full py-3 rounded-lg text-white font-semibold bg-gradient-to-r from-purple-600 to-purple-500">
+        <button onClick={() => nav("/signup")} className="w-full py-3 rounded-lg text-white font-semibold bg-[#6C25FF]">
           Create Account
         </button>
-        <button onClick={() => nav("/login")} className="w-full py-3 rounded-lg bg-purple-200 text-purple-700 font-semibold">
+        <button onClick={() => nav("/login")} className="w-full py-3 rounded-lg bg-[#6C25FF4B]">
           Already Registered? Login
         </button>
       </div>

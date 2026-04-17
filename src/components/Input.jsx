@@ -2,7 +2,7 @@ export default function Input({ label, name, value, onChange, placeholder, type 
   return (
     <div className="mb-5">
       <fieldset className="border border-gray-300 rounded-lg px-3 pb-2">
-        <legend className="text-xs text-purple-600 px-1">{label}</legend>
+        <legend className="text-xs text-[#6C25FF] px-1">{label}</legend>
         <input
           type={type}
           name={name}
